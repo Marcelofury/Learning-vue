@@ -1,14 +1,14 @@
 <script setup>
 import {ref} from 'vue'
+import Header from '@/Header.vue'
 const name = ref('Racheal')
-const emoji = ref('✌️')
+
 const year = ref('2026')
 </script>
 
 <template>
-  <header>
-    <span>{{ emoji }}</span>
-  </header>
+  <Header/>
+ 
 
   <main>
     <h1> Hello, {{ name }} !</h1>
@@ -20,10 +20,7 @@ const year = ref('2026')
 </template>
 
 <style scoped>
-span{
-  font-size: 3rem;
 
-}
 main h1{
   display: block;
 }
