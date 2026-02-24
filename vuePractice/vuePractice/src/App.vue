@@ -1,7 +1,8 @@
 <script setup>
-import {ref} from 'vue'
+
 import Header from '@/Header.vue'
 import Main from '@/main.vue'
+import Footer from'@/footer.vue'
 
 
 
